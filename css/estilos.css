@@ -7,12 +7,17 @@
   font-family: 'Open Sans', sans-serif; }
 
 /* estilos de inicio*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
 header {
   display: block;
   background-color: #ca3a71;
   height: auto;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -51,6 +56,52 @@ header {
 .menu-item:hover {
   color: var(--main-color); }
 
+/*Cards*/
+.contenido, .contenido2, .contenido3 {
+  font-weight: 600;
+  padding: 40px; }
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: #ececec;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin-bottom: 10px; }
+
+.card strike {
+  color: red; }
+
+.card p {
+  font-family: 'Anton', sans-serif;
+  line-height: 2.9px; }
+
+/*carousel*/
+.carousel {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+/*info de pagina*/
+.info {
+  width: 100%;
+  margin-top: 90px;
+  background-image: url(/img/infodepag.png);
+  height: 250px; }
+
+.info h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  color: #3a1f47; }
+
+.info h2 {
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 10px;
+  color: white; }
+
 /*:::::Pie de Pagina*/
 .pie-pagina {
   margin-top: 100px;
@@ -59,7 +110,7 @@ header {
 
 .pie-pagina .grupo-1 {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
