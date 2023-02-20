@@ -56,6 +56,11 @@ header {
 .menu-item:hover {
   color: var(--main-color); }
 
+.titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
 /*Cards*/
 .contenido, .contenido2, .contenido3 {
   font-weight: 600;
@@ -102,9 +107,19 @@ header {
   margin-top: 10px;
   color: white; }
 
+.info img {
+  height: 260px;
+  padding-bottom: 70px;
+  display: flex;
+  margin-left: 520px;
+  margin-top: 110px; }
+
+.info2 {
+  text-align: center; }
+
 /*:::::Pie de Pagina*/
 .pie-pagina {
-  margin-top: 100px;
+  margin-top: 500px;
   width: 100%;
   background-color: #ca3a71; }
 
@@ -159,6 +174,101 @@ header {
 
 .pie-pagina .grupo-2 small {
   font-size: 15px; }
+
+/*info peluches*/
+.imagen img {
+  display: flex;
+  margin-left: 420px; }
+
+.inforanas {
+  display: block;
+  text-align: center; }
+
+.inforanas h1 {
+  font-weight: 600;
+  background-color: #17461d;
+  color: #efefef;
+  margin-left: 150px;
+  margin-right: 150px; }
+
+.inforanas h2 {
+  font-size: 22px;
+  margin-left: 300px;
+  margin-right: 300px; }
+
+.inforanas h3 {
+  font-weight: 600;
+  background-color: #303244;
+  color: #efefef;
+  margin-left: 250px;
+  margin-right: 250px; }
+
+.inforanas p {
+  font-size: 20px;
+  line-height: 16px; }
+
+button {
+  --color: #2f7c1f;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  margin-left: 200px; }
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; }
+
+button:hover {
+  color: #fff; }
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s; }
+
+button:hover:before {
+  top: -30px;
+  left: -30px; }
+
+button:active:before {
+  background: #3a0ca3;
+  transition: background 0s; }
+
+.contenido4 {
+  display: flex;
+  gap: 30px; }
+
+.card2 {
+  margin-top: 100px;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  justify-content: space-around; }
+
+.card2 img {
+  width: 100%; }
+
+.card2 strike {
+  color: red; }
 
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
