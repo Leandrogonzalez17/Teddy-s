@@ -62,7 +62,9 @@ header {
   text-align: center; }
 
 /*Cards*/
-.contenido, .contenido2, .contenido3 {
+.contenido,
+.contenido2,
+.contenido3 {
   font-weight: 600;
   padding: 40px; }
 
@@ -403,6 +405,93 @@ button:active:before {
   color: red; }
 
 @media screen and (max-width: 800px) {
+  /*Cabecera*/
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 90px; }
+  .logo {
+    display: flex;
+    height: 50px; }
+  .main-menu {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 38px; }
+  .menu-item {
+    display: block;
+    width: 40%;
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #e7adc5;
+    font-size: 11px; }
+  .boton {
+    width: 90%;
+    padding: 5px 14px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: #5f2452;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 12px; }
+  /*Cards*/
+  .contenido,
+  .contenido2,
+  .contenido3 {
+    display: flex;
+    font-weight: 600;
+    padding: 6px;
+    font-size: 14px;
+    gap: 60px; }
+  .card {
+    display: flex;
+    width: 120px;
+    height: 184px;
+    background: #ececec;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 10px; }
+  /*carousel*/
+  .carousel {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  /*info de pagina*/
+  .info {
+    width: 1700px;
+    margin-top: 90px;
+    height: 210px; }
+  .info h1 {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    color: #110f1a;
+    margin-left: 330px;
+    background-color: #e0e0e0;
+    padding-left: 80px; }
+  .info h2 {
+    justify-content: center;
+    margin-top: 10px;
+    color: #351f1f;
+    font-size: 14px;
+    margin-right: 435px;
+    margin-left: 450px; }
+  .info img {
+    height: 160px;
+    display: flex;
+    margin-right: 500px;
+    margin-top: 200px; }
+  .info2 {
+    margin-right: 400px;
+    margin-left: 400px; }
+  /*pie de pag*/
   .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
