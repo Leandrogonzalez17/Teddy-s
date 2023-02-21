@@ -259,10 +259,46 @@ header{
     margin-right: 250px;    
 }
 
-.infogato p{
+//info de siguiente pag
+
+.infosnorlax p{
     font-size: 20px;
     line-height: 16px;
 }
+
+.infosnorlax{
+    display: block;
+    text-align: center;
+}
+
+.infosnorlax h1{
+    font-weight: 600;
+    background-color: #4b5b86;
+    color: #efefef;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.infosnorlax h2{
+    font-size: 22px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.infosnorlax h3{
+    font-weight: 600;
+    background-color: #303244;
+    color: #efefef;
+    margin-left: 250px;
+    margin-right: 250px;    
+}
+
+.infosnorlax p{
+    font-size: 20px;
+    line-height: 16px;
+}
+
+
 
 /*boton compra*/
 button {
