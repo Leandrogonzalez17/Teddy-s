@@ -1,5 +1,6 @@
 /* estilos de inicio*/
 body {
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,13 +123,19 @@ header {
     color: white;
 }
 
-.info img {
-    height: 260px;
-    padding-bottom: 70px;
+.info div {
     display: flex;
-    margin-left: 520px;
-    margin-top: 110px;
+    justify-content: center;
+    align-items: center;
 }
+
+.info img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+
 
 .info2 {
     text-align: center;
@@ -309,100 +316,6 @@ header {
     line-height: 16px;
 }
 
-/*Pagina de envios*/
-
-.main3 img {
-    display: flex;
-    margin-left: 430px;
-}
-
-main h1 {
-    font-family: 'Russo One', sans-serif;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 30px;
-    background-color: #d85883;
-    ;
-    margin-left: 250px;
-    margin-right: 250px;
-    color: #efefef;
-}
-
-.main3 h2 {
-    text-align: center;
-    margin-left: 280px;
-    margin-right: 280px;
-    font-size: 30px;
-}
-
-.contenedor {
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
-}
-
-.cuadro {
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.cuadro2 {
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.cuadro3 {
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.cuadro4 {
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.contenedor2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.card3 {
-    width: 490px;
-    height: 164px;
-    border-radius: 50px;
-    background: #d85883;
-    box-shadow: 20px 20px 60px #ac5076,
-        -20px -20px 60px #e4c6d4;
-    line-height: 10px;
-    font-size: 18px;
-}
-
-.p {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 10px;
-    color: #e0e0e0;
-}
-
-
-.p2 {
-    margin-left: 10px;
-    color: #e0e0e0;
-    line-height: 30px;
-
-}
-
-.contenedor3 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
 
 /*boton compra*/
 button {
@@ -483,7 +396,7 @@ button:active:before {
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:480px) {
 
     /*Cabecera*/
     header {
@@ -544,8 +457,8 @@ button:active:before {
 
     .card {
         display: flex;
-        width: 120px;
-        height: 184px;
+        width: 143px;
+        height: 193px;
         background: rgb(236, 236, 236);
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         margin-bottom: 10px;
@@ -561,43 +474,47 @@ button:active:before {
 
     /*info de pagina*/
     .info {
-        width: 1700px;
+        justify-content: center;
+        width: 100%;
         margin-top: 90px;
-        height: 210px;
+        height: 230px;
     }
 
     .info h1 {
+        max-width: 100%;
         display: flex;
+        flex-direction: column;
+        text-align: center;
         font-family: 'Anton', sans-serif;
         font-weight: 600;
         font-size: 15px;
         margin-top: 30px;
         color: rgb(17, 15, 26);
-        margin-left: 330px;
-        background-color: #e0e0e0;
-        padding-left: 80px;
     }
 
     .info h2 {
-        justify-content: center;
+        max-width: 80%;
+        display: flex;
+        justify-content: right;
         margin-top: 10px;
         color: rgb(53, 31, 31);
         font-size: 14px;
-        margin-right: 435px;
-        margin-left: 450px;
 
     }
 
+
     .info img {
-        height: 160px;
-        display: flex;
-        margin-right: 500px;
-        margin-top: 200px;
+        width: 100%;
+        height: 180px;
     }
 
     .info2{
-        margin-right: 400px;
-        margin-left: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+        margin-top: 40px;
+        font-size: 12px;
     }
 
 

@@ -1,0 +1,94 @@
+/*Pagina de envios*/
+
+.main3 img {
+    display: flex;
+    margin-left: 430px;
+}
+
+.main3 h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    background-color: #d85883;
+    ;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #efefef;
+}
+
+.main3 h2 {
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    font-size: 30px;
+}
+
+.contenedor {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.cuadro {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cuadro2 {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cuadro3 {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cuadro4 {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card3 {
+    width: 490px;
+    height: 164px;
+    border-radius: 50px;
+    background: #d85883;
+    box-shadow: 20px 20px 60px #ac5076,
+        -20px -20px 60px #e4c6d4;
+    line-height: 10px;
+    font-size: 18px;
+}
+
+.p {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #e0e0e0;
+}
+
+
+.p2 {
+    margin-left: 10px;
+    color: #e0e0e0;
+    line-height: 30px;
+
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
