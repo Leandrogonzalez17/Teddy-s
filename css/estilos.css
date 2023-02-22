@@ -181,92 +181,6 @@ header {
 .pie-pagina .grupo-2 small {
   font-size: 15px; }
 
-/*info peluches*/
-.imagen img {
-  display: flex;
-  margin-left: 420px; }
-
-.inforanas {
-  display: block;
-  text-align: center; }
-
-.inforanas h1 {
-  font-weight: 600;
-  background-color: #17461d;
-  color: #efefef;
-  margin-left: 150px;
-  margin-right: 150px; }
-
-.inforanas h2 {
-  font-size: 22px;
-  margin-left: 300px;
-  margin-right: 300px; }
-
-.inforanas h3 {
-  font-weight: 600;
-  background-color: #303244;
-  color: #efefef;
-  margin-left: 250px;
-  margin-right: 250px; }
-
-.inforanas p {
-  font-size: 20px;
-  line-height: 16px; }
-
-.infogato {
-  display: block;
-  text-align: center; }
-
-.infogato h1 {
-  font-weight: 600;
-  background-color: #e483ab;
-  color: #efefef;
-  margin-left: 150px;
-  margin-right: 150px; }
-
-.infogato h2 {
-  font-size: 22px;
-  margin-left: 300px;
-  margin-right: 300px; }
-
-.infogato h3 {
-  font-weight: 600;
-  background-color: #303244;
-  color: #efefef;
-  margin-left: 250px;
-  margin-right: 250px; }
-
-.infosnorlax p {
-  font-size: 20px;
-  line-height: 16px; }
-
-.infosnorlax {
-  display: block;
-  text-align: center; }
-
-.infosnorlax h1 {
-  font-weight: 600;
-  background-color: #4b5b86;
-  color: #efefef;
-  margin-left: 150px;
-  margin-right: 150px; }
-
-.infosnorlax h2 {
-  font-size: 22px;
-  margin-left: 300px;
-  margin-right: 300px; }
-
-.infosnorlax h3 {
-  font-weight: 600;
-  background-color: #303244;
-  color: #efefef;
-  margin-left: 250px;
-  margin-right: 250px; }
-
-.infosnorlax p {
-  font-size: 20px;
-  line-height: 16px; }
-
 /*boton compra*/
 button {
   --color: #2f7c1f;
@@ -705,3 +619,134 @@ header {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px; } }
+
+/*info peluches*/
+body {
+  display: block;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagen img {
+  display: flex;
+  justify-content: center; }
+
+.inforanas {
+  display: block;
+  text-align: center; }
+
+.inforanas h1 {
+  font-weight: 600;
+  background-color: #17461d;
+  color: #efefef; }
+
+.inforanas h2 {
+  font-size: 22px; }
+
+.inforanas h3 {
+  font-weight: 600;
+  background-color: #303244;
+  color: #efefef; }
+
+.inforanas p {
+  font-size: 20px;
+  line-height: 16px; }
+
+.infogato {
+  display: block;
+  text-align: center; }
+
+.infogato h1 {
+  font-weight: 600;
+  background-color: #e483ab;
+  color: #efefef; }
+
+.infogato h2 {
+  font-size: 22px; }
+
+.infogato h3 {
+  font-weight: 600;
+  background-color: #303244;
+  color: #efefef; }
+
+.infosnorlax p {
+  font-size: 20px;
+  line-height: 16px; }
+
+.infosnorlax {
+  display: block;
+  text-align: center; }
+
+.infosnorlax h1 {
+  font-weight: 600;
+  background-color: #4b5b86;
+  color: #efefef; }
+
+.infosnorlax h2 {
+  font-size: 22px; }
+
+.infosnorlax h3 {
+  font-weight: 600;
+  background-color: #303244;
+  color: #efefef; }
+
+.infosnorlax p {
+  font-size: 20px;
+  line-height: 16px; }
+
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 100%; }
+  /*Cabecera*/
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 90px; }
+  .logo {
+    display: flex;
+    height: 50px; }
+  .main-menu {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 38px; }
+  .menu-item {
+    display: block;
+    width: 40%;
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #e7adc5;
+    font-size: 11px; }
+  .boton {
+    width: 90%;
+    padding: 5px 14px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: #5f2452;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 12px; }
+  .imagen img {
+    height: 200px; }
+  .contenido4 {
+    width: 100%; }
+  .card2 {
+    height: 200px; }
+  .infogato {
+    width: 100%; }
+  .infogato h1 {
+    margin-left: 0px;
+    margin-right: 0px; } }

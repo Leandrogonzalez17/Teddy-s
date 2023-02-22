@@ -1,0 +1,181 @@
+/*info peluches*/
+body {
+    display: block;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    display: flex;
+    justify-content: center;
+}
+
+.inforanas {
+    display: block;
+    text-align: center;
+}
+
+.inforanas h1 {
+    font-weight: 600;
+    background-color: #17461d;
+    color: #efefef;
+}
+
+.inforanas h2 {
+    font-size: 22px;
+
+}
+
+.inforanas h3 {
+    font-weight: 600;
+    background-color: #303244;
+    color: #efefef;
+}
+
+.inforanas p {
+    font-size: 20px;
+    line-height: 16px;
+}
+
+//info de siguiente pag
+
+.infogato {
+    display: block;
+    text-align: center;
+}
+
+.infogato h1 {
+    font-weight: 600;
+    background-color: #e483ab;
+    color: #efefef;
+}
+
+.infogato h2 {
+    font-size: 22px;
+}
+
+.infogato h3 {
+    font-weight: 600;
+    background-color: #303244;
+    color: #efefef;
+
+}
+
+//info de siguiente pag
+
+.infosnorlax p {
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.infosnorlax {
+    display: block;
+    text-align: center;
+}
+
+.infosnorlax h1 {
+    font-weight: 600;
+    background-color: #4b5b86;
+    color: #efefef;
+
+}
+
+.infosnorlax h2 {
+    font-size: 22px;
+
+}
+
+.infosnorlax h3 {
+    font-weight: 600;
+    background-color: #303244;
+    color: #efefef;
+}
+
+.infosnorlax p {
+    font-size: 20px;
+    line-height: 16px;
+}
+
+
+@media screen and (max-width:480px){
+    body{
+        max-width: 100%;
+    }
+     /*Cabecera*/
+     header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 90px;
+    }
+
+    .logo {
+        display: flex;
+        height: 50px;
+    }
+
+    .main-menu {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-right: 38px;
+    }
+
+    .menu-item {
+        display: block;
+        width: 40%;
+        margin: 0 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.5s;
+        color: rgb(231, 173, 197);
+        font-size: 11px;
+    }
+
+    .boton {
+        width: 90%;
+        padding: 5px 14px;
+        border-radius: 30px;
+        background-color: var(--main-color);
+        color: rgb(95, 36, 82);
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 12px;
+    }
+
+    .imagen img {
+        height: 200px;
+    }
+
+    .contenido4{
+        width: 100%;
+    }
+
+    .card2{
+        height: 200px;
+    }
+
+    .infogato{
+        width: 100%;
+    }
+
+    .infogato h1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    
+}
