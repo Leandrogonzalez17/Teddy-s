@@ -1,110 +1,96 @@
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
 /*info peluches*/
 body {
     display: block;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     flex-wrap: wrap;
 }
 
+h3, h3, h3{
+    font-weight: 600;
+    @extend %heading;
+}
+
+h2, h2, h2{
+    @extend %size;
+}
 
 .imagen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    @include flex;
 
-.imagen img {
+
+img {
     display: flex;
     justify-content: center;
 }
-
+}
 .inforanas {
     display: block;
     text-align: center;
-}
 
-.inforanas h1 {
+
+h1 {
     font-weight: 600;
     background-color: #17461d;
-    color: #efefef;
+    color: $color-principal;
 }
 
-.inforanas h2 {
-    font-size: 22px;
-
-}
-
-.inforanas h3 {
-    font-weight: 600;
-    background-color: #303244;
-    color: #efefef;
-}
-
-.inforanas p {
+p {
     font-size: 20px;
     line-height: 16px;
 }
+}
+
 
 //info de siguiente pag
 
 .infogato {
     display: block;
     text-align: center;
-}
 
-.infogato h1 {
+
+h1 {
     font-weight: 600;
     background-color: #e483ab;
-    color: #efefef;
+    color: $color-principal;
 }
 
-.infogato h2 {
-    font-size: 22px;
 }
-
-.infogato h3 {
-    font-weight: 600;
-    background-color: #303244;
-    color: #efefef;
-
-}
-
 //info de siguiente pag
 
-.infosnorlax p {
-    font-size: 20px;
-    line-height: 16px;
-}
+
 
 .infosnorlax {
     display: block;
     text-align: center;
-}
 
-.infosnorlax h1 {
-    font-weight: 600;
-    background-color: #4b5b86;
-    color: #efefef;
-
-}
-
-.infosnorlax h2 {
-    font-size: 22px;
-
-}
-
-.infosnorlax h3 {
-    font-weight: 600;
-    background-color: #303244;
-    color: #efefef;
-}
-
-.infosnorlax p {
+p {
     font-size: 20px;
     line-height: 16px;
 }
+
+h1 {
+    font-weight: 600;
+    background-color: #4b5b86;
+    color: $color-principal;
+
+}
+
+p {
+    font-size: 20px;
+    line-height: 16px;
+}
+
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:480px){

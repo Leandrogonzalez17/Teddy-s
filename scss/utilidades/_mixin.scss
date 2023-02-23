@@ -1,0 +1,17 @@
+//mixin
+
+//mixin con parametros
+
+@mixin botones ($font-weight, $margin-top,$bg-h1){
+    font-weight: $font-weight;
+    margin-top: $margin-top;
+    background-color: $bg-h1;
+}
+
+//mixin sin parametros
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

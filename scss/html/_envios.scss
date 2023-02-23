@@ -1,74 +1,12 @@
-/*Pagina de envios*/
-body {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+@import "../utilidades/mixin";
 
-header {
-    display: block;
-    background-color: #ca3a71;
-    height: auto;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    box-sizing: border-box;
-    height: 70px;
-    transition: 0.5s;
-}
-
-.logo {
-    height: 110%;
-}
-
-.main-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-
-.main-menu a{
-    width: 50%;
-}
-
-.menu-item {
-    margin: 0 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.5s;
-    color: rgb(231, 173, 197);
-}
-
-.boton {
-    padding: 10px 24px;
-    border-radius: 30px;
-    background-color: var(--main-color);
-    color: rgb(95, 36, 82);
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.5s
-}
-
-    /*pag envios*/
     .envios{
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-
+        @include flex;
     }
 
     .main3 div{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex;
     }
 
     .main3 img {
@@ -80,10 +18,8 @@ header {
     .main3 h1 {
         font-family: 'Russo One', sans-serif;
         text-align: center;
-        font-weight: 600;
-        margin-top: 30px;
-        background-color: #d85883;
-        color: #efefef;
+        @include botones(600, 30px, rgb(207, 102, 119));
+        color: $color-principal;
     }
     
     .main3 h2 {
@@ -153,13 +89,13 @@ header {
         display: flex;
         margin-top: 30px;
         margin-left: 10px;
-        color: #e0e0e0;
+        color: $color-principal;
     }
     
     
     .p2 {
         margin-left: 10px;
-        color: #e0e0e0;
+        color: $color-principal;
     }
     
     .contenedor3 {
@@ -337,7 +273,15 @@ header {
         margin-top: 40px;
         gap: 10px;
     }
-    
+
+    .contenido4{
+        width: 100%;
+    }
+
+    .card2{
+        height: 200px;
+    }
+
     /*pie de pag*/
     .pie-pagina .grupo-1 {
         width: 90%;

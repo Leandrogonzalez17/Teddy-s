@@ -1,9 +1,9 @@
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
 /* estilos de inicio*/
 body {
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     flex-wrap: wrap;
 }
 
@@ -14,9 +14,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex;
     padding: 0 5%;
     box-sizing: border-box;
     height: 70px;
@@ -28,9 +26,7 @@ header {
 }
 
 .main-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     list-style: none;
 }
 
@@ -78,6 +74,8 @@ header {
     background: rgb(236, 236, 236);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     margin-bottom: 10px;
+
+    
 }
 
 .card strike {
@@ -120,17 +118,15 @@ header {
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 10px;
-    color: white;
+    color: $color-principal;
 }
 
 .info div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
 }
 
 .info img{
-    margin-top: 60px;
+    margin-top: 120px;
     margin-bottom: 50px;
     height: 200px;
 }
@@ -171,13 +167,13 @@ header {
 }
 
 .pie-pagina .grupo-1 .box h2 {
-    color: #fff;
+    color: $color-principal;
     margin-bottom: 25px;
     font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p {
-    color: #efefef;
+    color: $color-principal;
     margin-bottom: 10px;
 }
 
@@ -187,7 +183,7 @@ header {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: $color-principal;
     margin-right: 10px;
     background-color: #9b2c48;
     text-align: center;
@@ -202,7 +198,7 @@ header {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: $color-principal;
 }
 
 .pie-pagina .grupo-2 small {
@@ -241,7 +237,7 @@ button:before {
 }
 
 button:hover {
-    color: #fff;
+    color: $color-principal;
 }
 
 button:before {
@@ -272,7 +268,7 @@ button:active:before {
     border-radius: 30px;
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
-        -15px -15px 30px #ffffff;
+        -15px -15px 30px $color-principal;
     justify-content: space-around;
 }
 
@@ -299,6 +295,7 @@ button:active:before {
     }
 
     .logo {
+        margin-top: 100px;
         display: flex;
         height: 50px;
     }

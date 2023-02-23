@@ -1,3 +1,11 @@
+//import
+@import "html/inicio";
+@import "../scss/html/envios";
+@import "../scss/html/estilos-de-info-peluches";
+@import "../scss/utilidades/extend";
+@import "../scss/utilidades/mixin";
+@import "../scss/utilidades/variables";
+
 /*reset*/
 
 *{
@@ -7,7 +15,4 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-//import
-@import "html/inicio";
-@import "../scss/html/envios";
-@import "../scss/html/estilos-de-info-peluches"
+
