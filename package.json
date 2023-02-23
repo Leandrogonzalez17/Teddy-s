@@ -1,7 +1,7 @@
 {
   "name": "teddys",
   "version": "1.0.0",
-  "description": "",
+  "description": "Una tienda de muñecos de peluches, cada uno tiene una historia que contar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
 
     "watch-css": "nodemon -e scss -x \"npm  run build-css\""
   },
-  "author": "",
+  "author": "Leandro gonzalez",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^8.0.0",
