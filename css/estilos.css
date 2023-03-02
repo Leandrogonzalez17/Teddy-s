@@ -23,6 +23,7 @@ header {
   transition: 0.5s; }
 
 .logo {
+  margin-right: 20px;
   height: 110%; }
 
 .main-menu {
@@ -38,6 +39,10 @@ header {
   transition: 0.5s;
   color: #e7adc5; }
 
+.menu-item a {
+  text-decoration: none;
+  color: #e7adc5; }
+
 .boton {
   padding: 10px 24px;
   border-radius: 30px;
@@ -49,6 +54,24 @@ header {
 
 .menu-item:hover {
   color: var(--main-color); }
+
+.input {
+  font-family: monospace;
+  max-width: 190px;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f3f7fe;
+  transition: .3s;
+  color: #941b4d; }
+
+.input::placeholder {
+  color: #f63b92; }
+
+.input:focus {
+  border: 1px solid #ff499e;
+  box-shadow: 0 0 0 5px #b90d4f5f; }
 
 .titulo {
   display: flex;
@@ -238,17 +261,26 @@ button:active:before {
 .card2 strike {
   color: red; }
 
+.paginas {
+  margin-top: 60px; }
+  .paginas .page-link {
+    color: #fae9ee;
+    background-color: #941b4d;
+    list-style: none; }
+
 @media screen and (max-width: 480px) {
   /*Cabecera*/
   header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 90px; }
+    padding-bottom: 200px; }
   .logo {
     margin-top: 100px;
     display: flex;
-    height: 50px; }
+    justify-content: center;
+    align-items: center;
+    height: 10px; }
   .main-menu {
     width: 90%;
     display: flex;
@@ -275,6 +307,10 @@ button:active:before {
     cursor: pointer;
     transition: 0.5s;
     font-size: 12px; }
+  .input {
+    max-width: 190px;
+    padding: 0.2px;
+    border-radius: 5px; }
   /*Cards*/
   .contenido,
   .contenido2,
