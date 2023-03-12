@@ -85,6 +85,12 @@ header {
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+.main-menu li{
+    display: inline-block;
+    margin-right: 1px;
+    font-size: 16px;
+}
+
 .titulo {
     display: flex;
     flex-direction: column;
