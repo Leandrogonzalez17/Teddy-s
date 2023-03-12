@@ -3,9 +3,7 @@
     margin-top: 90px;
     background-color: rgb(118, 55, 170);
     height: 250px;
-}
-
-.info4 h1 {
+h1 {
     font-family: 'Anton', sans-serif;
     font-weight: 600;
     text-align: center;
@@ -14,7 +12,7 @@
     color: rgb(234, 189, 255);
 }
 
-.info4 h2 {
+h2 {
     text-align: center;
     margin-left: 120px;
     margin-right: 120px;
@@ -22,17 +20,18 @@
     color: $color-principal;
 }
 
-.info4 div {
+div {
     @include flex;
 }
 
-.info4 img{
+img{
     margin-top: 120px;
     margin-bottom: 50px;
     height: 200px;
 }
+}
 
-
+ 
 
 @media screen and (max-width:480px){
         /*info de pagina gorro*/
